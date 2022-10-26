@@ -7,4 +7,6 @@ jobs:
       - name: Print greeting
         run: echo "Hi mom"
       - name: Exit
-        run: echo "Bye mom"
+        run: | 
+          echo "bye mom!"
+          echo "see you soon"
